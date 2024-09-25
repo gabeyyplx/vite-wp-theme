@@ -1,0 +1,10 @@
+.content > [class^='wp-block'] > [class*='__inner-container'],
+.content > .wp-block-group {
+  max-width: $container-width;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.content > .wp-block-columns {
+  padding: 0;
+}

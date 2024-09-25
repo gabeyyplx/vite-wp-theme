@@ -1,4 +1,28 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+// Fonts
+$body-font: sans-serif;
+
+// Colors
+$body-color: #0f0a0a;
+$accent-color: #166088;
+
+// Container
+$container-width: 1200px;
+$container-padding: 30px;
+
+// Nav
+$nav-background-color: #ffffff;
+$nav-height: 80px;
+$nav-padding: 10px;
+$nav-item-gap: 15px;
+
+// Effects
+$transition-duration: 0.3s;
+
+// Responsive
+$mobile-size: $container-width; // When using max-width
+$desktop-size: calc($container-width + 1px); // When using min-width
+
+// Imports
+@import './scss/base';
+@import './scss/nav';
+@import './scss/layout';

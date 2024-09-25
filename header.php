@@ -23,3 +23,17 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
+	<nav class="main-nav">
+		<div class="logo">
+			<?php the_custom_logo(); ?>
+			<button class="toggle-mobile-nav"></button>
+		</div>
+			
+		<div class="main-menu">
+			<?php wp_nav_menu(array(
+				'theme_location' => 'main-menu',
+				'fallback_cb' => false
+			)); ?>
+		</div>
+	</nav>
+	<div class="content">
