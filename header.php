@@ -32,7 +32,8 @@
 		<div class="main-menu">
 			<?php wp_nav_menu(array(
 				'theme_location' => 'main-menu',
-				'fallback_cb' => false
+				'fallback_cb' => false,
+				'depth' => 1
 			)); ?>
 		</div>
 	</nav>
