@@ -7,13 +7,21 @@ $accent-color: #166088;
 
 // Container
 $container-width: 1200px;
-$container-padding: 30px;
+$container-side-padding: 30px;
 
 // Nav
 $nav-background-color: #ffffff;
 $nav-height: 80px;
 $nav-padding: 10px;
 $nav-item-gap: 15px;
+
+// Footer
+$footer-background-color: #41b8df;
+$footer-color: #0f0a0a;
+$footer-padding: 100px;
+$copyright-background-color: #166088;
+$copyright-color: #ffffff;
+$copyright-padding: 25px;
 
 // Effects
 $transition-duration: 0.3s;
@@ -26,3 +34,4 @@ $desktop-size: calc($container-width + 1px); // When using min-width
 @import './scss/base';
 @import './scss/nav';
 @import './scss/layout';
+@import './scss/footer';

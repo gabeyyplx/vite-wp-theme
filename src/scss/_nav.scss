@@ -1,6 +1,6 @@
 nav.main-nav {
   background-color: $nav-background-color;
-  padding: $nav-padding $container-padding;
+  padding: $nav-padding $container-side-padding;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -17,6 +17,10 @@ nav.main-nav {
   .logo {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: $mobile-size) {
+      width: 100%;
+    }
 
     a {
       display: flex;

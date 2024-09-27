@@ -1,10 +1,17 @@
 .content > [class^='wp-block'] > [class*='__inner-container'],
-.content > .wp-block-group {
+.content > .wp-block-group,
+.footer-container,
+.copyright-container {
   max-width: $container-width;
-  padding: 0 30px;
+  padding: 0 $container-side-padding;
   margin: 0 auto;
+}
+
+.wp-block-group {
+  padding: 0 $container-side-padding;
 }
 
 .content > .wp-block-columns {
   padding: 0;
+  margin: 0;
 }
